@@ -1,0 +1,14 @@
+#header
+{
+background-color:rgb(163,73,163);
+
+}
+
+ul{
+list-style-type:none;
+
+}
+ul li{
+display:inline;
+padding:20px;
+}
