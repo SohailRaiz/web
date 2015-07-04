@@ -1,0 +1,43 @@
+legend 
+{
+font-weight:bold;
+font-size:16pt;
+text-align:center;
+
+}
+form
+{
+
+margin:200px;
+margin-bottom:0px;
+box-shadow:5px 5px 5px #888888;
+text-align:center;
+}
+
+input
+{
+margin-bottom:10px;
+}
+#submit
+{
+box-shadow:5px 5px 5px #888888;
+}
+.success{
+    color:#009900;
+}
+.error{
+    color:#F33C21;
+}
+.password_strength.weak{
+    background:#e84c3d;
+}
+.password_strength.normal{
+    background:#f1c40f;
+}
+.password_strength.strong{
+    background:#27ae61;
+}
+.password_strength.verystrong{
+    background:#2dcc70;
+    color:#FFF;
+}
