@@ -1,0 +1,132 @@
+									/*FONT FACE*/
+@font-face
+{
+font-family:"header font";
+src: url("header.ttf");
+}
+							/* body */
+
+body
+{
+margin:0px;
+padding:0px;
+background-color:Beige; 
+}							
+	
+							/*header*/
+#pageheader
+{
+	font-family:"header font";
+}
+#pageheader h1
+{
+	font-size:42pt;
+	letter-spacing:5px;
+	text-align:center;
+	color:DarkKhaki;
+}
+#pageheader h1::before
+{
+	content:'"';
+}
+#pageheader h1::after
+{
+	content:"''";
+}
+#pageheader h3
+{
+	font-size:20pt;
+	letter-spacing:3px;
+	text-align:center;
+	color:DarkKhaki;
+}
+#pageheader h3::before
+{
+	content:"~~~";
+}
+#pageheader h3::after
+{
+	content:"~~~";
+}
+				/* Navbar css*/
+.navbar 
+{
+	font-size:18pt;
+	background-color:rgb(233,233,177);
+	padding:0px;
+	margin:0px;
+	color:DarkKhaki;
+}
+ a
+{
+	color:DarkKhaki;
+	text-decoration:none;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+
+ a:hover {
+    color: Brown;
+	background:Khaki  ;
+}
+
+a:active {
+    color:DarkKhaki;
+}
+
+.navbar ul  
+{
+	padding: 0;
+    list-style: none;
+	list-style-type:none;	
+	text-align:center;
+}
+.navbar ul li
+{
+		display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+}
+.navbar ul li a{
+        display: block;
+        padding: 8px 25px;
+        text-decoration: none;
+    }
+
+
+  .navbar  ul li ul.dropdown{
+        min-width: 125px; 
+		background-color:rgb(233,233,177);
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+  .navbar  ul li:hover ul.dropdown{
+        display: block;	
+    }
+ .navbar   ul li ul.dropdown li{
+        display: block;
+    }
+
+.navbar .empty::before
+{
+content:"|";
+color:DarkKhaki;
+font-size:28pt;
+}
+
+.posts
+{
+	color:DarkKhaki;
+	width:500px;
+	margin:auto;
+}
+
+.posts h1
+{
+font-size:25pt;
+color:brown;
+}
